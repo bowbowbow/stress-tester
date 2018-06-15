@@ -1,0 +1,10 @@
+{
+  "name": "stress-tester",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "process.env.NODE_ENV node app.js"
+  },
+  "dependencies": {
+    "artillery": "^1.6.0-19"
+  }
+}
