@@ -47,9 +47,9 @@ Report generated: output.json.html
 
 report example
 
-<img width="400px" height="auto" src="images/report1.png"></img>
-<img width="400px" height="auto" src="images/report2.png"></img>
-<img width="400px" height="auto" src="images/report3.png"></img>
+<img width="700px" height="auto" src="images/report1.png"></img>
+<img width="700px" height="auto" src="images/report2.png"></img>
+<img width="700px" height="auto" src="images/report3.png"></img>
   
 ## reference
  
