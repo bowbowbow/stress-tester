@@ -13,11 +13,13 @@ $ npm install
  
 ## How to use
 
+1. edit config.json (docs: https://artillery.io/docs)
+
+2. run shell script
 ```bash
 $ sh run.sh 
 ```
  
 ## reference
  
-[Config Document](https://artillery.io/docs)
-[Reference Blog](https://blog.outsider.ne.kr/1238)
+https://blog.outsider.ne.kr/1238
