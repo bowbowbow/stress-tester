@@ -1,6 +1,7 @@
 # Stress Tester
 
-You can simply test the server stress with a single line of code and view the report.
+You can simply test the server stress with a single line (`sh run.sh`) and view the report.
+Also it can be used as a artillery boilerplate.
 
 ## Prerequisite: Node.js
 
