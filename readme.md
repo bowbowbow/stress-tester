@@ -22,6 +22,7 @@ $ sh run.sh
 
 ## result example
 
+summary example
 ```bash
 Summary report @ 14:59:52(+0900) 2018-06-16
   Scenarios launched:  500
@@ -43,6 +44,8 @@ Summary report @ 14:59:52(+0900) 2018-06-16
 Log file: output.json
 Report generated: output.json.html
 ```
+
+report example
 
 <img width="400px" height="auto" src="images/report1.png"></img>
 <img width="400px" height="auto" src="images/report2.png"></img>
