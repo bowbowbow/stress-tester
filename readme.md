@@ -21,7 +21,7 @@ $ npm install
 $ sh run.sh 
 ```
 
-## result example
+## Result
 
 summary example
 ```bash
