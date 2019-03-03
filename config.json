@@ -1,0 +1,52 @@
+{
+  "config": {
+    "target": "https://cobak.co.kr",
+    "phases": [
+      {
+        "duration": 60,
+        "arrivalRate": 500
+      }
+    ],
+    "defaults": {
+      "headers": {
+        "User-Agent": "Artillery",
+        "Authorization": "Token XXXXX"
+      }
+    },
+    "payload": {
+      "path": "./data.csv",
+      "fields": [
+        "id",
+        "password",
+        "contents"
+      ]
+    }
+  },
+  "scenarios": [
+    {
+      "weight": 9,
+      "name": "token sale list",
+      "flow": [
+        {
+          "get": {
+            "url": "/api/v1/posts/post-7053"
+          }
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "name": "write comment",
+      "flow": [
+        {
+          "post": {
+            "url": "/api/v1/posts/post-7053/comments",
+            "json": {
+              "contents": "{{contents}}"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
