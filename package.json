@@ -5,6 +5,6 @@
     "start": "process.env.NODE_ENV node app.js"
   },
   "dependencies": {
-    "artillery": "^1.6.0-19"
+    "artillery": "^1.6.0-27"
   }
 }
